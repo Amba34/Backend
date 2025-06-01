@@ -14,3 +14,5 @@ class ApiResponse {
     return new ApiResponse(false, message);
   }
 }
+
+export { ApiResponse };
