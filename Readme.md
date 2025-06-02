@@ -161,17 +161,6 @@ src/
 
 ---
 
-## Contribution
-
-PRs and suggestions are welcome! Please open an issue for major feature requests or bugs.
-
----
-
-## License
-
-Licensed under ISC.
-
----
 
 ## Author
 
