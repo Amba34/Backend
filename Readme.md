@@ -153,13 +153,7 @@ src/
    npm test
    ```
 
----
 
-## CI/CD
-
-- **GitHub Actions**: Workflow is set up to run tests on every push and PR to `main`. See `.github/workflows/ci.yml`.
-
----
 
 
 ## Author
