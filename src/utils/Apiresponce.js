@@ -3,7 +3,7 @@ class ApiResponse {
     this.success = success;
     this.message = message;
     this.data = data;
-    this.statusCode = statusCode < 400 ? statusCode : 500; // Default to 500 for errors
+    this.statusCode = statusCode; // Default to 500 for errors
   }
 
   static success(message, data = null) {
