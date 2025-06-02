@@ -27,14 +27,12 @@ const userSchema = new Schema({
     },
     avatar: {
         type: String,
-        default: "https://res.cloudinary.com/dzq1xj3qj/image/upload/v1735681234/avatars/avatar.png",
         reqeured: true,
 
     },
 
     coverImage: {
         type: String,
-        default: "https://res.cloudinary.com/dzq1xj3qj/image/upload/v1735681234/avatars/cover.jpg",
         reqeured: true,
     },
 
