@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "test": "jest",
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "author": "Ambadas Joshi",
@@ -24,5 +25,9 @@
     "mongoose": "^8.15.1",
     "mongoose-aggregate-paginate-v2": "^1.1.4",
     "multer": "^2.0.0"
-  }
+  },
+  "jest": {
+  "testEnvironment": "node",
+  "transform": {}
+}
 }
